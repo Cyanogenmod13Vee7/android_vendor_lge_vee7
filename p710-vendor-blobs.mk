@@ -24,6 +24,11 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/bin/rild:system/bin/rild \
  vendor/lge/p710/bin/sensord:system/bin/sensord \
  vendor/lge/p710/bin/rmt_storage:system/bin/rmt_storage \
+ vendor/lge/p710/bin/bridgemgrd:system/bin/bridgemgrd \
+ vendor/lge/p710/bin/port-bridge:system/bin/port-bridge \
+ vendor/lge/p710/bin/thermald:system/bin/thermald \
+ vendor/lge/p710/bin/pppd:system/bin/pppd \
+ vendor/lge/p710/bin/mpdecision:system/bin/mpdecision \
  vendor/lge/p710/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/lge/p710/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7x27a.so \
  vendor/lge/p710/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -91,7 +96,6 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/lib/libmmparser.so:system/lib/libmmparser.so \
  vendor/lge/p710/lib/libmmipl.so:system/lib/libmmipl.so \
  vendor/lge/p710/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
- vendor/lge/p710/lib/libaudioeq.so:system/lib/libaudioeq.so \
  vendor/lge/p710/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/lge/p710/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
  vendor/lge/p710/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
@@ -100,6 +104,7 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/lib/libgps.so:system/lib/libgps.so \
  vendor/lge/p710/lib/libgps.utils.so:system/lib/libgps.utils.so \
  vendor/lge/p710/lib/libauth.so:system/lib/libauth.so \
+ vendor/lge/p710/lib/libauth.so:obj/lib/libauth.so \
  vendor/lge/p710/lib/libcm.so:system/lib/libcm.so \
  vendor/lge/p710/lib/libdiag.so:system/lib/libdiag.so \
  vendor/lge/p710/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -128,7 +133,7 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/lib/libadc.so:system/lib/libadc.so \
  vendor/lge/p710/lib/liballjoyn.so:system/lib/liballjoyn.so \
  vendor/lge/p710/lib/libaudcal.so:system/lib/libaudcal.so \
- vendor/lge/p710/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+ vendor/lge/p710/lib/libaudcal.so:obj/lib/libaudcal.so \
  vendor/lge/p710/lib/libcommondefs.so:system/lib/libcommondefs.so \
  vendor/lge/p710/lib/libdsprofile.so:system/lib/libdsprofile.so \
  vendor/lge/p710/lib/libdss.so:system/lib/libdss.so \
