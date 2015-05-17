@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#No
-#vendor/lge/p710/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
-
-
 ####################################################
 ###############Our hacked PB are here###############
 ####################################################
@@ -47,9 +43,10 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
  vendor/lge/p710/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
  vendor/lge/p710/lib/libadc.so:system/lib/libadc.so \
+ vendor/lge/p710/lib/liballjoyn.so:system/lib/liballjoyn.so \
  vendor/lge/p710/lib/libaudcal.so:system/lib/libaudcal.so \
- vendor/lge/p710/lib/libaudioalsa.so:system/liblibaudioalsa.so \
- vendor/lge/p710/lib/libaudioeq.so:system/liblibaudioeq.so \
+ vendor/lge/p710/lib/libaudioalsa.so:system/lib/liblibaudioalsa.so \
+ vendor/lge/p710/lib/libaudioeq.so:system/lib/liblibaudioeq.so \
  vendor/lge/p710/lib/libauth.so:system/liblibauth.so \
  vendor/lge/p710/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
  vendor/lge/p710/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
@@ -146,6 +143,7 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/lib/libqmiservices.so:system/lib/libqmiservices.so \
  vendor/lge/p710/lib/libqueue.so:system/lib/libqueue.so \
  vendor/lge/p710/lib/libreference-ril.so:system/lib/libreference-ril.so \
+ vendor/lge/p710/lib/librpc.so:system/lib/librpc.so \
  vendor/lge/p710/lib/libril.so:system/lib/libril.so \
  vendor/lge/p710/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
  vendor/lge/p710/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
