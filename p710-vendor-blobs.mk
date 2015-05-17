@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/bin/mpdecision:system/bin/mpdecision \
  vendor/lge/p710/bin/netmgrd:system/bin/netmgrd \
  vendor/lge/p710/bin/qmuxd:system/bin/qmuxd \
+ vendor/lge/p710/bin/qosmgr:system/bin/qosmgr \
  vendor/lge/p710/bin/rild:system/bin/rild \
  vendor/lge/p710/bin/rmt_storage:system/bin/rmt_storage \
  vendor/lge/p710/bin/sensord:system/bin/sensord \
