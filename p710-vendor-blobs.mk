@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/bin/sensord:system/bin/sensord \
  vendor/lge/p710/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
  vendor/lge/p710/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+ vendor/lge/p710/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/lge/p710/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
  vendor/lge/p710/lib/hw/power.default.so:system/lib/hw/power.default.so \
  vendor/lge/p710/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
@@ -46,9 +47,9 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/lib/libadc.so:system/lib/libadc.so \
  vendor/lge/p710/lib/liballjoyn.so:system/lib/liballjoyn.so \
  vendor/lge/p710/lib/libaudcal.so:system/lib/libaudcal.so \
- vendor/lge/p710/lib/libaudioalsa.so:system/lib/liblibaudioalsa.so \
- vendor/lge/p710/lib/libaudioeq.so:system/lib/liblibaudioeq.so \
- vendor/lge/p710/lib/libauth.so:system/liblibauth.so \
+ vendor/lge/p710/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+ vendor/lge/p710/lib/libaudioeq.so:system/lib/libaudioeq.so \
+ vendor/lge/p710/lib/libauth.so:system/lib/libauth.so \
  vendor/lge/p710/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
  vendor/lge/p710/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
  vendor/lge/p710/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
@@ -144,7 +145,6 @@ PRODUCT_COPY_FILES += \
  vendor/lge/p710/lib/libqmiservices.so:system/lib/libqmiservices.so \
  vendor/lge/p710/lib/libqueue.so:system/lib/libqueue.so \
  vendor/lge/p710/lib/libreference-ril.so:system/lib/libreference-ril.so \
- vendor/lge/p710/lib/librpc.so:system/lib/librpc.so \
  vendor/lge/p710/lib/libril.so:system/lib/libril.so \
  vendor/lge/p710/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
  vendor/lge/p710/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
