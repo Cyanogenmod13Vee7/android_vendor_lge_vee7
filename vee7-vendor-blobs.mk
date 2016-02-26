@@ -44,11 +44,8 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
  vendor/lge/vee7/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
  vendor/lge/vee7/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
- vendor/lge/vee7/lib/libadc.so:system/lib/libadc.so \
- vendor/lge/vee7/lib/liballjoyn.so:system/lib/liballjoyn.so \
  vendor/lge/vee7/lib/libaudcal.so:system/lib/libaudcal.so \
  vendor/lge/vee7/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
- vendor/lge/vee7/lib/libaudioeq.so:system/lib/libaudioeq.so \
  vendor/lge/vee7/lib/libauth.so:system/lib/libauth.so \
  vendor/lge/vee7/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
  vendor/lge/vee7/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
@@ -57,7 +54,6 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/lib/libchromatix_imx219_preview.so:system/lib/libchromatix_imx219_preview.so \
  vendor/lge/vee7/lib/libchromatix_imx219_zsl.so:system/lib/libchromatix_imx219_zsl.so \
  vendor/lge/vee7/lib/libcm.so:system/lib/libcm.so \
- vendor/lge/vee7/lib/libcommondefs.so:system/lib/libcommondefs.so \
  vendor/lge/vee7/lib/libdiag.so:system/lib/libdiag.so \
  vendor/lge/vee7/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
  vendor/lge/vee7/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
@@ -67,18 +63,12 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/lib/libdss.so:system/lib/libdss.so \
  vendor/lge/vee7/lib/libdsutils.so:system/lib/libdsutils.so \
  vendor/lge/vee7/lib/libgemini.so:system/lib/libgemini.so \
- vendor/lge/vee7/lib/libgps.utils.so:system/lib/libgps.utils.so \
- vendor/lge/vee7/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
  vendor/lge/vee7/lib/libgsl.so:system/lib/libgsl.so \
- vendor/lge/vee7/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
  vendor/lge/vee7/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
  vendor/lge/vee7/lib/libidl.so:system/lib/libidl.so \
  vendor/lge/vee7/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
  vendor/lge/vee7/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
  vendor/lge/vee7/lib/liblgeat.so:system/lib/liblgeat.so \
- vendor/lge/vee7/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
- vendor/lge/vee7/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
- vendor/lge/vee7/lib/libloc_eng.so:system/lib/libloc_eng.so \
  vendor/lge/vee7/lib/libmm-abl.so:system/lib/libmm-abl.so \
  vendor/lge/vee7/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
  vendor/lge/vee7/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
@@ -154,11 +144,8 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/lib/libvoem_if.so:system/lib/libvoem_if.so \
  vendor/lge/vee7/lib/libwcnftm.so:system/lib/libwcnftm.so \
  vendor/lge/vee7/lib/libwfcu.so:system/lib/libwfcu.so \
- vendor/lge/vee7/lib/libwidevine.so:system/lib/libwidevine.so \
  vendor/lge/vee7/lib/libwms.so:system/lib/libwms.so \
  vendor/lge/vee7/lib/libwmsts.so:system/lib/libwmsts.so \
- vendor/lge/vee7/lib/libwpa_client.so:system/lib/libwpa_client.so \
  vendor/lge/vee7/lib/libxml.so:system/lib/libxml.so \
- vendor/lge/vee7/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
  vendor/lge/vee7/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 
