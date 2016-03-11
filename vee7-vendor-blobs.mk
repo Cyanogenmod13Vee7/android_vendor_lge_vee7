@@ -15,7 +15,8 @@
 ###############Our hacked PB are here###############
 ####################################################
 PRODUCT_COPY_FILES += \
- vendor/lge/vee7/lib/libaudcal.so:obj/lib/libaudcal.so 
+ vendor/lge/vee7/lib/libaudcal.so:obj/lib/libaudcal.so \
+ vendor/lge/vee7/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
 
 ###################################
 # Copy vendor to where they blong #
@@ -33,8 +34,6 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/bin/rmt_storage:system/bin/rmt_storage \
  vendor/lge/vee7/bin/sensord:system/bin/sensord \
  vendor/lge/vee7/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
- /vendor/lge/vee7/bin/fmconfig:system/bin/fmconfig \
- /vendor/lge/vee7/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
  
 # HAL
 PRODUCT_COPY_FILES += \
@@ -45,16 +44,20 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
  vendor/lge/vee7/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
  vendor/lge/vee7/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
- vendor/lge/vee7/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
- vendor/lge/vee7/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
- vendor/lge/vee7/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
- vendor/lge/vee7/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
- vendor/lge/vee7/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
- vendor/lge/vee7/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
- vendor/lge/vee7/lib/libgsl.so:system/lib/libgsl.so \
- vendor/lge/vee7/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
- vendor/lge/vee7/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
- vendor/lge/vee7/lib/libOpenVG.so:system/lib/libOpenVG.so \
+ vendor/lge/vee7/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+ vendor/lge/vee7/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+ vendor/lge/vee7/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+ vendor/lge/vee7/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+ vendor/lge/vee7/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+ vendor/lge/vee7/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+ vendor/lge/vee7/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+ vendor/lge/vee7/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+ vendor/lge/vee7/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+ vendor/lge/vee7/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+ vendor/lge/vee7/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+ vendor/lge/vee7/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+ vendor/lge/vee7/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+ vendor/lge/vee7/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
 
 # OMX and decoders
 PRODUCT_COPY_FILES += \
