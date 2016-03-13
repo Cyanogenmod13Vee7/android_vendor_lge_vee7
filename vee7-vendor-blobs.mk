@@ -10,7 +10,13 @@
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
-# limitations under the License.
+# limitations under the License.+
+
+# vendor/lge/vee7/bin/rild:system/bin/rild \
+# vendor/lge/vee7/lib/libril.so:system/lib/libril.so \
+#  vendor/lge/vee7/bin/sensord:system/bin/sensord \
+
+
 ####################################################
 ###############Our hacked PB are here###############
 ####################################################
@@ -30,14 +36,11 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/bin/netmgrd:system/bin/netmgrd \
  vendor/lge/vee7/bin/qmuxd:system/bin/qmuxd \
  vendor/lge/vee7/bin/qosmgr:system/bin/qosmgr \
- vendor/lge/vee7/bin/rild:system/bin/rild \
  vendor/lge/vee7/bin/rmt_storage:system/bin/rmt_storage \
- vendor/lge/vee7/bin/sensord:system/bin/sensord \
  vendor/lge/vee7/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
  
 # HAL
 PRODUCT_COPY_FILES += \
- vendor/lge/vee7/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
  vendor/lge/vee7/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 
 # Adreno Graphics
@@ -120,7 +123,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
  vendor/lge/vee7/lib/libauth.so:system/lib/libauth.so \
  vendor/lge/vee7/lib/libreference-ril.so:system/lib/libreference-ril.so \
- vendor/lge/vee7/lib/libril.so:system/lib/libril.so \
  vendor/lge/vee7/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
  vendor/lge/vee7/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
  vendor/lge/vee7/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
@@ -168,7 +170,4 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/lib/libmmparser.so:system/lib/libmmparser.so \
  vendor/lge/vee7/lib/libvoem_if.so:system/lib/libvoem_if.so \
 
-# NFC
-PRODUCT_COPY_FILES += \
- vendor/lge/vee7/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 
