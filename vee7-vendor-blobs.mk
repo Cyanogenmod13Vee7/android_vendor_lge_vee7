@@ -10,13 +10,7 @@
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
-# limitations under the License.+
-
-# vendor/lge/vee7/bin/rild:system/bin/rild \
-# vendor/lge/vee7/lib/libril.so:system/lib/libril.so \
-#  vendor/lge/vee7/bin/sensord:system/bin/sensord \
-
-
+# limitations under the License.
 ####################################################
 ###############Our hacked PB are here###############
 ####################################################
@@ -155,6 +149,8 @@ PRODUCT_COPY_FILES += \
  vendor/lge/vee7/lib/libwfcu.so:system/lib/libwfcu.so \
  vendor/lge/vee7/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
  vendor/lge/vee7/lib/libpbmlib.so:system/lib/libpbmlib.so \
+ vendor/lge/vee7/lib/libhwnv.so:system/lib/libhwnv.so \
+ vendor/lge/vee7/lib/libhwrpc.so:system/lib/libhwrpc.so \
 
 # Misc
 PRODUCT_COPY_FILES += \
